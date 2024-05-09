@@ -1,6 +1,7 @@
 # BaseDeDatosUniversidad
 ![DiagramaUniversidadBdd](https://github.com/nataliagiraldo/BaseDeDatosUniversidad/assets/131258170/3455fd9f-95ac-4c81-a2a1-a2d239fe6106)
 
+```mysql
 DDL
 DROP DATABASE IF EXISTS universidad;
 CREATE DATABASE universidad;
@@ -977,5 +978,10 @@ BEGIN
     WHERE m.id_asignatura = id_asignatura;
 END //
 DELIMITER ;
+
+
+
+```
+
 
 
